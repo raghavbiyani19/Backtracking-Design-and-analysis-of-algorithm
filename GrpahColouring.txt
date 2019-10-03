@@ -1,0 +1,13 @@
+I used the following notations:
+x[]--------> Solution list.
+matrix[] --> connection matrix of my Graph
+k----------> Vertex to be coloured
+m----------> number of colours used.
+n----------> number of nodes in my graph
+
+The main method calls mColor where the color is assigned to a node, before that, the 
+function nextValue is used to find the appropriate color for that node.
+
+I plotted the grpah using networkx library.
+There are 2 options, min colours or num. of colours as user's choice.
+Min colors is calculated by Degree of grpah.
